@@ -27,8 +27,9 @@ const SectionWrapper = ({title, description, showBtn, mockupImg, banner, reverse
                     {showBtn && (
                         <Button
                         assetUrl={assets.expo}
-                        link="https://expo.dev/@ambience_media/nf
-                        t?serviceType=classic&distribution=expo-go" />
+                        link="https://expo.dev/@ambience_media/nft?serviceType=classic&distribution=expo-go"
+                        title = "View it on"
+                        description = "Expo Store"/>
                     )}
                 </div>
 

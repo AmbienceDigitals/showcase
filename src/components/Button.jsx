@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../styles/Global';
 
 
-const Button = ({assetUrl, link}) => {
+const Button = ({assetUrl, link, title, description}) => {
     return (
         <div
         className={styles.btnBlack}
