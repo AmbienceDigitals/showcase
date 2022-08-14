@@ -22,6 +22,9 @@ const Features = () => {
                 <div className={styles.flexWrap}>
                     <FeatureCard
                     iconUrl= {assets.react}
+                    iconText = "React Js"/>
+                    <FeatureCard
+                    iconUrl= {assets.react}
                     iconText = "React Native"/>
                     <FeatureCard
                     iconUrl= {assets.javascript}
